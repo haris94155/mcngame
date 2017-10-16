@@ -22,28 +22,25 @@ step4:In terminal:
 step5:Drag and drop the 
 
         node_modules/react-native-image-crop-picker/ios/ImageCropPickerSDK folder to your xcode project in Libraries. 
-
-step6:Drag and drop the 
-
         node_modules/react-native-image-crop-picker/ios/imageCropPicker.xcodeproj file to your xcode project also in Libraries.
 
-step7:Click on project General tab
+step6:Click on project General tab
 
     step7.1:Under Deployment Info set Deployment Target to 8.0
     
     step7.2:Under Embedded Binaries click + and add RSKImageCropper.framework and QBImagePicker.framework from ImageCropPickerSDK folder(which we dragged and dropped in step-6)
 
-step8:Click on your main project file (the one that represents the .xcodeproj) select 
+step7:Click on your main project file (the one that represents the .xcodeproj) select 
 "Build Phases" and drag the static library
 
         "imageCropPicker.xcodeproj/libimageCropPicker.a" file
 from the Products folder inside the Libraries to "Link Binary With Libraries"( step 2 of this link https://facebook.github.io/react-native/docs/linking-libraries-ios.html -  this link is general, perform step according to your Libraray you are linking)
 
-step9:delete 
+step8:delete 
 
         ios/build 
 
-step10:
+step9:
 
         react-native run-ios
 
