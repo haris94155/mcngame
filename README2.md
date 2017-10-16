@@ -1,3 +1,5 @@
+Installing react-native-image-crop-picker
+
 step1:
         
         npm i react-native-image-crop-picker --save
