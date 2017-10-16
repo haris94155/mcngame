@@ -24,5 +24,7 @@ step7:Click on project General tab
 step8:Click on your main project file (the one that represents the .xcodeproj) select "Build Phases" and drag the static library("imageCropPicker.xcodeproj/libimageCropPicker.a" file) from the Products folder inside the Libraries to "Link Binary With Libraries"( step 2 of this link https://facebook.github.io/react-native/docs/linking-libraries-ios.html -  this link is general, perform step according to your Libraray you are linking)
 
 References:
+
 1.https://github.com/ivpusic/react-native-image-crop-picker
+
 2.https://facebook.github.io/react-native/docs/linking-libraries-ios.html
