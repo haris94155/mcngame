@@ -1,4 +1,4 @@
-Installing react-native-image-crop-picker
+Installing react-native-image-crop-picker in iOS
 
 step1:
         
